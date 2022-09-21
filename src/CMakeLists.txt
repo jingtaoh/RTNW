@@ -1,0 +1,1 @@
+add_executable(RayTracingTheNextWeek main.cpp vec3.h color.h ray.h hittable.h sphere.h hittable_list.h rtweekend.h camera.h material.h)
