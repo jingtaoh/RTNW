@@ -41,7 +41,8 @@ public:
 
         return ray(
                 origin + offset,
-                lower_left_corner + s * horizontal + t * vertical - origin - offset
+            lower_left_corner + s*horizontal + t*vertical - origin - offset,
+            random_double(time0, time1)
                );
     }
 
